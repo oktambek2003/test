@@ -8,7 +8,7 @@ jobs:
       - name: Checkout the repository
         uses: actions/checkout@v2
         with:
-          repository: test/test_test
+          repository: https://github.com/oktambek2003/test.git
           ref: refs/heads/master
           path: test
       - uses: dart-lang/setup-dart@v1
